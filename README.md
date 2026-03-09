@@ -1,14 +1,16 @@
-# RFM Dashboard Demo
+# RFM Dashboard
 
-A small demo project that showcases an **RFM (Recency, Frequency, Monetary) customer segmentation dashboard**.  
-The goal is to demonstrate how customer behavior can be summarized into clear segments (e.g., “Champions”, “At Risk”, etc.) and explored through interactive visuals for marketing/retention insights.
+An **RFM (Recency, Frequency, Monetary) customer segmentation dashboard**.
 
-## Disclaimer (Data Privacy / Demo Dataset)
+This project summarizes customer behavior into clear segments (e.g., “Champions”, “At Risk”, etc.) and provides interactive visuals to explore marketing/retention insights.
 
-This repository uses a **synthetic (fake) dataset**.  
-Because the real customer/order data used for the original analysis is private and sensitive, all examples and outputs shown here are generated from data that does **not** represent any real individuals, accounts, or transactions.
+## Data Privacy / Synthetic Dataset
 
-## What this dashboard demonstrates
+This repository uses a **synthetic (fake) dataset**.
+
+The original version of this work was built using private customer/order data. That private data is **not included** here. All examples and outputs shown in this repository are generated from synthetic data that does **not** represent any real individuals, accounts, or transactions.
+
+## What this dashboard does
 
 At a high level, the dashboard workflow is:
 
@@ -71,7 +73,6 @@ This is the “analysis” view: it supports decision-making by letting you insp
 
 ## Notes / Assumptions
 
-- This is a demo implementation meant to illustrate the RFM concept and dashboard UX.
 - Segment names and cutoffs can vary widely by business context. In real deployments, thresholds are usually tuned and validated with domain input.
 
 ---
